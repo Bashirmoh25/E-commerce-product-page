@@ -6,15 +6,7 @@ import deleteBtn from '../../assets/images/icon-delete.svg';
 const Cart = () => {
     const screenSize=useMediaPredicate('(max-width:540px)');
     const {cartItems} =useContext(commonContext);
-    let arr =[
-      {
-        img:cartItems.image,
-        title:"Full Limited Edition Snekers",
-        prize:125.00,
-        amount:0
-      }
-    ];
-    console.log(arr[0].amount)
+    
   return (
     <div className={`${cartStyles.cart} ${screenSize?cartStyles.cartMob:cartStyles.cartDesk}`}>
         <p>Cart</p>
@@ -23,7 +15,7 @@ const Cart = () => {
             {cartItems.length==0 ? <p>Your cart is empty</p>:
             <div>
               <ul>
-                {arr.map((obj,index)=>(
+                {cartItems.map((obj,index)=>(
                   <li key={index}>
                     <div>
                       <img src="" alt="" />

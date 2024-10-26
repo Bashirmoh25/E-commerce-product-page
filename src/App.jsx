@@ -13,7 +13,7 @@ function App() {
   const screenSize= useMediaPredicate('(max-width:540px)');
   const [menuOpen,setMenuOpen] = useState(false);
   const [basketOpen,setBasketOpen] = useState(false);
-  const [cartItems,setCartItems] =useState({});
+  const [cartItems,setCartItems] =useState([]);
   const [openBox,setOpenBox] =useState(false);
   const removeFromCart =(producId)=>{
     setCartItems((prev)=>prev.filter(
