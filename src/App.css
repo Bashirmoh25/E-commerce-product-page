@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.image-gallery-thumbnails{
+  border: #e9e509;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+}

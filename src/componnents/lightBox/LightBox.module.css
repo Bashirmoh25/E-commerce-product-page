@@ -1,0 +1,19 @@
+.light {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color:rgba(126, 122, 122, 0.3);
+    position-anchor: --lightBox;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.boxContent{
+    width: 33.333%;
+    height: 20%;
+    margin-top: 10vh;
+}

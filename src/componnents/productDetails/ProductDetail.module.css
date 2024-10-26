@@ -1,0 +1,80 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2.5%;
+}
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.grayText{
+    color: hsl(219, 9%, 45%);
+}
+.darkBg{
+    background-color: hsl(220, 13%, 13%);
+    color:  #fff;
+    margin-inline-start: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.lineThrough{
+    text-decoration:line-through;
+    color: hsl(219, 9%, 45%);
+}
+.addBtn{
+    background-color: hsl(26, 100%, 55%);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    
+}
+.addBtn:hover{
+    background-color: hsl(25, 100%, 65%);
+}
+.btnsDesk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+.w49{
+    width: 49%;
+}
+.countBtnDesk{
+    width: 49%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+.addBtnDesk{
+    width: 100%;
+    height: 40px;
+}
+.addBtnMob{
+    width: 100%;
+    height: 40px;
+    margin-block: 20px;
+}
+.countBtnMob{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    border: none;
+    justify-content: space-between;
+    
+}    
+.detailContainer{
+    padding-inline: 5%;
+}
+.quantity{
+    font-size: large;
+    font-weight: 500;
+}
+    

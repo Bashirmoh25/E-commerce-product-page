@@ -1,0 +1,32 @@
+.cart{
+    position: absolute;
+    overflow-y: auto;
+    background-color: #fff;
+    z-index: 20;
+}
+.cartMob{
+    top: 7vh;
+    width: 85%;
+    height: 300px;
+    padding-inline: 5%;
+    margin-inline: 2.5%;
+}
+.cartDesk{
+    top: 11vh;
+    width: 200px;
+    height: 200px;
+    padding-inline: 5%;
+    right: 0;
+}
+.cartBody{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.checkBtn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}

@@ -1,0 +1,72 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 11vw;
+    
+}
+
+.border{
+    border-bottom: 2px #aaa solid;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 10px;
+    height: 5vw;
+    margin-bottom: 2vh;
+}
+.header{
+    width: 95%;
+    height: 20%;
+    padding-inline:2.5%;
+    margin-bottom: 10px;
+    
+
+}
+.relative{
+    position: relative;
+}
+.sticky{
+    position: sticky;
+    top: 20%;
+}
+.avatarMob{
+    width:24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px orange solid;
+    img{
+        width: 24px;
+        height:24px;
+    }
+}
+.avatarDesk{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px orange solid;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pos{
+    anchor-name: --parent;
+}
+.notify{
+    position: absolute;
+    border-radius: 50%;
+    background-color: orangered;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    position-anchor: --parent;
+    top: anchor(top);
+    right: anchor(right);
+}
