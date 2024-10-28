@@ -28,6 +28,7 @@ function App() {
   }
   const [currentImg,setCurrentImg] =useState('');
   return (
+    <HelmetProvider context={helmetContext}>
     <div> 
     <commonContext.Provider value={{basketOpen,setBasketOpen,removeFromCart,
       openBox,setOpenBox,currentImg,setCurrentImg,
@@ -50,6 +51,7 @@ function App() {
      </div>
      </commonContext.Provider>
     </div>
+    </HelmetProvider>
   )
 }
 

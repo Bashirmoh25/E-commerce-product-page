@@ -32,6 +32,9 @@ const ProductCount = () => {
             )
         })
     },[items])
+    const handleAdd =()=>{
+        
+    }
   return (
     <div className={`${styles.detailContainer} ${screenSize?null:styles.btnsDesk}` }>
         <button className={`${screenSize?styles.countBtnMob:styles.countBtnDesk}`}>
