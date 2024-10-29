@@ -6,6 +6,7 @@ import deleteBtn from '../../assets/images/icon-delete.svg';
 const Cart = () => {
     const screenSize=useMediaPredicate('(max-width:540px)');
     const {cartItems} =useContext(commonContext);
+    console.log(cartItems[0])
     
   return (
     <div className={`${cartStyles.cart} ${screenSize?cartStyles.cartMob:cartStyles.cartDesk}`}>

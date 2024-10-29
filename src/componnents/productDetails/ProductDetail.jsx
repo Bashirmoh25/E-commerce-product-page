@@ -1,9 +1,14 @@
 import { useMediaPredicate } from 'react-media-hook';
 import styles from './ProductDetail.module.css';
+import { Helmet } from 'react-helmet-async';
 const ProductDetail = () => {
   const screenSize = useMediaPredicate('(max-width:540px)');
   return (
     <div className={`${styles.detailContainer}`}>
+      <Helmet>
+        <title>fall Limited Edition sneakers</title>
+        <meta name='description' content='fall Limited edition skeakers'/>
+      </Helmet>
         <h4 className={`${styles.grayText}`}>Sneaker Company</h4>
         <h1>Fall Limited Edition Sneakers</h1>
         <p className={`${styles.grayText}`}>
